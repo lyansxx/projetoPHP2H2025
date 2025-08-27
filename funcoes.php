@@ -1,18 +1,28 @@
 <?php 
+$resp = 1;
 function titulo(){
-	echo("Calculando valores: <br/>");
+	echo("calculadora selecione uma das opções disponiveis:<br/>");
+	echo ("1- Adição, 2- Subtração, 3- Multiplicação, 4- Divisão <br/>");
+	
 }
+ if ($resp == 1) {
+ 	function somarValor($num1, $num2){
+ 		return($num1 + $num2);
+ 		
 
-function somaValor($num1,$num2){
-	return ($num1+$num2);
-}
+ 	}
+ 	
+ }
+ else if($resp == 2) {
+ 	function subtrairValor($num1, $num2){
+ 		return($num1 - $num2);
 
-$valor1=10; $valor2=20;
+ 	}
+
+ }
 titulo();
-$resposta = somaValor($valor1, $valor2);
-echo(" A  soma de num1 e num2 é $resposta <br/>");
-
-$somando = somaValor(30,40) + somaValor(50,60);
-
-echo("<br/> $somando");
+$resp1 = somarValor(30,60);
+echo("O valor de $num1 e $num2 é $resp1");
  ?>
+
+
