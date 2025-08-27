@@ -1,6 +1,7 @@
 <?php 
 $resp = 1;
 $resp1 = 0;
+
 function titulo(){
 	echo("calculadora selecione uma das opções disponiveis:<br/>");
 	echo ("1- Adição, 2- Subtração, 3- Multiplicação, 4- Divisão <br/>");
