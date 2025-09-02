@@ -56,41 +56,50 @@ else if($resp == 4) {
 }*/
 //ex02
 
-$valorBruto = 0;
+$valorBruto = 2000;
 $descontoIr = 0;
-$descontoInss = 0;	
-function descontoInss(){
-	$descontoInss = valorBruto - (valorBruto * 14/100);
-	return($descontoInss);
+$descontoIns = 0;
+$valorRecebido = 0;
+$valorR = 0;
+function DescontarInss(){
+	$descontoIns = $valorBruto - ($valorBruto * 86/100); 
+	return($descontoIns);
 
 }
 
-function Ir(){
-	$descontoIr = valorBruto - (valorBruto * 7,5/100);
+
+
+
+function DescontarIr1() {
+	$descontoIr = $valorBruto - ($valorBruto * 85/100);
 	return($descontoIr);
 
 }
 
-function Irr(){
-	$descontoIr = valorBruto - (valorBruto * 15/100);
+
+function DescontarIr2(){
+	$descontoIr = $valorBruto - ($valorBruto * 77,5/100);
 	return($descontoIr);
 
 }
 
+function DescontarIr3(){
+	$descontoIr = $valorBruto - ($valorBruto * 72,5/100);
+	return($descontoIr);
 
-
-
-
-if(valorBruto > 2259,20 && valorBruto <= 2826,65){
-	descontoInss();
-	descontoIr();
 
 }
 
-elseif (valorBruto > 2826,65 && valorBruto <= 3751,05) {
+DescontarInss($descontoIns);
 
+
+if ($valorBruto >2259 && $valorBruto <=2826,20) {
+ DescontarInss
+}
 	
-}
+
+
+
 
  ?>
 
