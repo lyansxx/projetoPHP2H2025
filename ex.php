@@ -18,18 +18,26 @@ else{
 
 //ex02
 
-/*$numero = 55;
+$numero = 55;
 
 
 if($numero % 2 == 0 ){
-	echo("Numero divisivel por 10, 5 e 2");
+	echo("Numero divisivel por  2");
 
+}
+
+else if($numero % 5 == 0){
+	echo("Numero divisivel por 5");
+
+}
+
+else if ($numero % 10 == 0) {
+	echo("Numero divisivel por 10");
 }
 
 else{
 	echo("Numero não divisivel por 10, 5 e 2");
-
-}*/
+}
 
 
 
