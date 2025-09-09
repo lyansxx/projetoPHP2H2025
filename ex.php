@@ -1,30 +1,34 @@
 <?php 
+//ex001
+// $valor1=10;
+// $valor2=8;
+// $resul=0;
 
-$salario = 2500;
-$inss = 86;
-$ir = 0;
+//  $resul = $valor1 + $valor2;
+// if ($resul >= 20) {
+//   $resul +=8;
+//   echo("O valor da conta é $resul <br/>");
+
+// }
+
+// else{
+// 	$resul -=5;
+// 	echo("o avlor da conta é $resul <br/>");
+// }
+
+//ex02
+
+$numero = 55;
 
 
-function DescontarIr($ir, $salario, $inss) {
-	if ($salario <= 2259) {
-		$salario = $salario - ($salario * $inss / 100);
-		echo("Não é necessário realizar o desconto de IR");
-		
-	}
-
-	elseif($salario > 2259 && $salario <=2826) {
-		
-		$salario = $salario * 0.86;
-		$salario = $salario * 0.925;
-		echo("O valor descontado de INSS foi de $inss, o valor descontado de IR foi de $ir e o valor liquido foi de $salario");
-
-	}
-
-
-
+if($numero % 2 == 0 ){
+	echo("Numero divisivel por 10, 5 e 2");
 
 }
 
-DescontarIr($ir, $salario);
+else{
+	echo("Numero não divisivel por 10, 5 e 2");
+
+}
 
  ?>
