@@ -54,6 +54,22 @@
    	// 		 echo "</pre>";
  		
 
- 
+ ex03
+
+ $Alunos = array( 
+                    ('felipe', 8),
+                    ('João' 9),
+                    ('Bianca',10),
+                    ('José',  3),
+                    ('Any', 7)
+                );
+
+                $totaldenotas = 0;
+                $mediaclasse = 0;
+                $nome = '';
+
+                foreach ($variable as $key => $value) {
+                    // code...
+                }
 
   ?>
