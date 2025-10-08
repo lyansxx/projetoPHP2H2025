@@ -25,51 +25,33 @@
 	echo "<pre>";
     print_r($resultado);
     echo "</pre>";*/
- 
 
-    // ex 02
-	// $i = 0;
- 	// $s = 0;
- 	// 	$arrayA = array (
- 	// 				array(25,12,35),
- 	// 				array(85,47,99),
- 	// 				array(32,35,8)
- 	// 							);
+$i = 0;
+ 		$s = 0;
+ 		$arrayA = array (
+ 					array(25,12,35),
+ 					array(85,47,99),
+ 					array(32,35,8)
+ 								);
+ 		$resultado =  array();
 
- 	// 	$arrayB = array (
- 	// 				array(25,12,35),
- 	// 				array(85,47,99),
- 	// 				array(32,35,8)
- 	// 							);
- 	// 	$resultado =  array();
-
- 	// 	for ($i=0; $i <3 ; $i++) { 
- 	// 		for ($v=0; $v <3; $v++) { 
- 	// 		$resultado[$i] [$v]  = $arrayA [$i] [$v] + $arrayB[$i] [$v];
- 	// 		}
- 	// 			}
-
- 	// 		echo "<pre>";
-   	// 		 print_r($resultado);
-   	// 		 echo "</pre>";
+ 		for ($i=0; $i <3 ; $i++) { 
+ 			for ($v=0; $v <3; $v++) { 
+ 			$resultado[$i] [$v]  = $arrayA [$i] [$v] + $arrayA[$i] [$v];
+ 			}
+ 		
+ 			}
  		
 
- ex03
+ 		echo "<pre>";
+    print_r($resultado);
+    echo "</pre>";
 
- $Alunos = array( 
-                    ('felipe', 8),
-                    ('João' 9),
-                    ('Bianca',10),
-                    ('José',  3),
-                    ('Any', 7)
-                );
+ 		// $arrayB = array (
+ 		// 			   array(98,65,35),
+ 		// 			   array(5,27,9,),
+ 		// 			   array(74,14,3)
+ 		// 							);
 
-                $totaldenotas = 0;
-                $mediaclasse = 0;
-                $nome = '';
-
-                foreach ($variable as $key => $value) {
-                    // code...
-                }
 
   ?>
