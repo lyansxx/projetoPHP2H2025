@@ -5,11 +5,23 @@
 	border: 0;
 }
 
+
+body{
+	background-image: url(../image/background-image);
+	background-repeat: no-repeat;
+	background-attachment: inherit;
+	background-size: cover;
+
+}
+
 *.container{
 	background-color: #dc3545;
 	width: 10px;
-	padding: 30px;
+	padding: 20px;
 	margin-top: 20px;
+	border-radius: 5px;
+	border: 10px;
+
 }
 
 label{
@@ -29,8 +41,4 @@ button{
 select{
 	width: 100%;
 
-}
-
-body{
-	background-image: url(../image/background-image);
 }
